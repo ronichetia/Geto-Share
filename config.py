@@ -73,11 +73,11 @@ def get_env(var_name, data=None, datatype=str):
 # ======================
 # Now your config below is fully sync:
 # ======================
-TG_BOT_TOKEN = get_env("TG_BOT_TOKEN", "")
-APP_ID = get_env("APP_ID", "", int)
-API_HASH = get_env("API_HASH", "")
-OWNER_ID = get_env("owner", "", int)
-CHANNEL_ID = get_env("CHANNEL_ID", "", int)
+TG_BOT_TOKEN = get_env("TG_BOT_TOKEN", "8915809620:AAHFUdfK19ySLFFSGtNnTsPaO3pdw3MfeMk")
+APP_ID = get_env("APP_ID", "39020336", int)
+API_HASH = get_env("API_HASH", "b6b6742ac6ad6936dfc88caeac95b7a4")
+OWNER_ID = get_env("owner", "5953067512", int)
+CHANNEL_ID = get_env("CHANNEL_ID", "-1004300961551", int)
 PORT = get_env("PORT", "8080")
 TG_BOT_WORKERS = int(get_env("TG_BOT_WORKERS", "500", int))
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
